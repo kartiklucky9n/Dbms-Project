@@ -21,13 +21,20 @@
     
     
     
-    
+    <!-- 
 	  <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" name="ds">
     	<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
     	<property name="url" value="jdbc:mysql://localhost:3306/dbms_project?useSSL=false"></property>
     	<property name="username" value="root"></property>
     	<property name="password" value=""></property>
-    </bean>    
+    </bean>
+	-->
+	  <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" name="ds">
+    	<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+    	<property name="url" value="jdbc:mysql://freedb.tech/freedbtech_pathapp"></property>
+    	<property name="username" value="freedbtech_kartik"></property>
+    	<property name="password" value="IITian@2018"></property>
+    </bean>
     
     
     <bean class="org.springframework.jdbc.core.JdbcTemplate" name="jdbcTemplate">
