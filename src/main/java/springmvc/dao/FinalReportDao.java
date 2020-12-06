@@ -80,6 +80,7 @@ public class FinalReportDao {
 		//System.out.println("sample"+sampleId);
 		RowMapper<RequestedTests> IT = new rowMapperImplRequestedTests();
 		Boolean k=false;
+		System.out.println(val);
 		if(val=="Positive")
 			k=true;
 		try {
