@@ -81,7 +81,7 @@ public class FinalReportDao {
 		RowMapper<RequestedTests> IT = new rowMapperImplRequestedTests();
 		Boolean k=false;
 		System.out.println(val);
-		if(val=="Positive")
+		if(val.equals ("Positive"))
 			k=true;
 		try {
 			List<RequestedTests> p = this.jdbcTemplate.query(q, IT, start, end, testId, k);

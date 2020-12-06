@@ -8,9 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pathapp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	<properties>
-		<java.version>8</java.version>
-	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>

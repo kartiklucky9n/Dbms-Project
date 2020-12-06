@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Calendar;
 import java.util.List;
 
-import javax.servlet.http.HttpServlet;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.view.RedirectView;
+
 
 import springmvc.dao.PatientDao;
 import springmvc.dao.TechnicianDao;
@@ -27,7 +27,7 @@ import springmvc.dao.UserDao;
 
 import springmvc.model.Patient;
 import springmvc.model.Technicians;
-import springmvc.model.UserSystem;
+
 
 @Controller
 public class HomeController {
