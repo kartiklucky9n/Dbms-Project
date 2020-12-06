@@ -25,7 +25,7 @@ public class TestDao {
 		String q="select * from test where testId=?";
 		RowMapper<Test> r = new rowMapperImplTests();
 		try {
-			Test T = this.jdbcTemplate.queryForObject(q,r);
+			Test T = this.jdbcTemplate.queryForObject(q,r, testId);
 			return T;
 		}
 		catch(Exception e) {

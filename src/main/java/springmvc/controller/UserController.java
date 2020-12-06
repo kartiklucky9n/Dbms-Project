@@ -299,7 +299,8 @@ public class UserController {
 		List<RequestedTests> search =  this.finaldao.searchreports2(start, end, testId, val);
 		m.addAttribute("nosearch", search.size());
 		m.addAttribute("search", search);
-		m.addAttribute("single", this.testdao.singleTest(testId));
+		Test single = this.testdao.singleTest(testId);
+		m.addAttribute("single", single);
 		return "allreports2";
 	}
 	@RequestMapping(path = "/addTestTo", method = RequestMethod.POST)
