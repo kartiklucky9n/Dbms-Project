@@ -58,6 +58,12 @@
 			<artifactId>spring-session-jdbc</artifactId>
 			<version>1.2.0.RC1</version>
 		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>pathapp</finalName>
@@ -73,5 +79,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 </project>
